@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="StudentRestAPiAutomationSuite">  
+  <test name="StudentAPItest">  
+    <classes>  
+       <class name="com.studentapi.testCases.TC001_GET_AllStudents"/>  
+       <class name="com.studentapi.testCases.TC002_GET_SingleStudent"/>  
+       <class name="com.studentapi.testCases.TC003_POST_AddStudent"/>
+       <class name="com.studentapi.testCases.TC004_DELETET_DeleteStudent"/>    
+    </classes>  
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->  

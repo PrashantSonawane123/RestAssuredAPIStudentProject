@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-11T11:30:37 IST" name="StudentRestAPiAutomationSuite" finished-at="2023-04-11T11:30:40 IST" duration-ms="3242">
+    <groups>
+    </groups>
+    <test started-at="2023-04-11T11:30:37 IST" name="StudentAPItest" finished-at="2023-04-11T11:30:40 IST" duration-ms="3242">
+      <class name="com.studentapi.testCases.TC002_GET_SingleStudent">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:39 IST" name="setUp" finished-at="2023-04-11T11:30:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getSingleStudent()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:39 IST" name="getSingleStudent" finished-at="2023-04-11T11:30:40 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleStudent -->
+        <test-method signature="checkHeader()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:40 IST" name="checkHeader" finished-at="2023-04-11T11:30:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:40 IST" name="checkResponseBody" finished-at="2023-04-11T11:30:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:40 IST" name="checkStatusCode" finished-at="2023-04-11T11:30:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:40 IST" name="checkStatusLine" finished-at="2023-04-11T11:30:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.studentapi.testCases.TC002_GET_SingleStudent@5c5eefef]" started-at="2023-04-11T11:30:40 IST" name="tearDown" finished-at="2023-04-11T11:30:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.studentapi.testCases.TC002_GET_SingleStudent -->
+      <class name="com.studentapi.testCases.TC004_DELETET_DeleteStudent">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="setUp" finished-at="2023-04-11T11:30:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="deleteStudent()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="deleteStudent" finished-at="2023-04-11T11:30:40 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteStudent -->
+        <test-method signature="checkHeader()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="checkHeader" finished-at="2023-04-11T11:30:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="checkResponseBody" finished-at="2023-04-11T11:30:40 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="checkStatusCode" finished-at="2023-04-11T11:30:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="checkStatusLine" finished-at="2023-04-11T11:30:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.studentapi.testCases.TC004_DELETET_DeleteStudent@79e2c065]" started-at="2023-04-11T11:30:40 IST" name="tearDown" finished-at="2023-04-11T11:30:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.studentapi.testCases.TC004_DELETET_DeleteStudent -->
+      <class name="com.studentapi.testCases.TC001_GET_AllStudents">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:37 IST" name="setUp" finished-at="2023-04-11T11:30:37 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getAllStudents()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:37 IST" name="getAllStudents" finished-at="2023-04-11T11:30:39 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllStudents -->
+        <test-method signature="checkHeader()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:39 IST" name="checkHeader" finished-at="2023-04-11T11:30:39 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:39 IST" name="checkResponseBody" finished-at="2023-04-11T11:30:39 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:39 IST" name="checkStatusCode" finished-at="2023-04-11T11:30:39 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:39 IST" name="checkStatusLine" finished-at="2023-04-11T11:30:39 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.studentapi.testCases.TC001_GET_AllStudents@6d763516]" started-at="2023-04-11T11:30:39 IST" name="tearDown" finished-at="2023-04-11T11:30:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.studentapi.testCases.TC001_GET_AllStudents -->
+      <class name="com.studentapi.testCases.TC003_POST_AddStudent">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="setUp" finished-at="2023-04-11T11:30:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getSingleStudent()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="getSingleStudent" finished-at="2023-04-11T11:30:40 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleStudent -->
+        <test-method signature="checkHeader()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="checkHeader" finished-at="2023-04-11T11:30:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="checkResponseBody" finished-at="2023-04-11T11:30:40 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="checkStatusCode" finished-at="2023-04-11T11:30:40 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="checkStatusLine" finished-at="2023-04-11T11:30:40 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.studentapi.testCases.TC003_POST_AddStudent@478190fc]" started-at="2023-04-11T11:30:40 IST" name="tearDown" finished-at="2023-04-11T11:30:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.studentapi.testCases.TC003_POST_AddStudent -->
+    </test> <!-- StudentAPItest -->
+  </suite> <!-- StudentRestAPiAutomationSuite -->
+</testng-results>
